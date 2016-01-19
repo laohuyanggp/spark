@@ -1,0 +1,10 @@
+Apache Spark是一个为实时大数据分析所设计的开源数据处理引擎。目前Spark的大用户有雅虎、腾讯和百度，使用Spark处理的数据在PB级别，
+集群节点数目也超过8000。Apache Spark是GitHub上最大的数据处理项目之一，有超过750名开发人员都曾对项目做出过贡献。
+
+与Hadoop MapReduce相比Apache Spark在内存中的运行速度快100倍，在硬盘中运行速度的差距也在10倍以上。
+Spark能够达到这样的速度靠的是DAG引擎和内存内计算性能的提升。开发语言可以使用Java、Python、Scala和R，
+此外Spark还提供了差不多100种集合操作符以便开发人员构建并行应用。
+
+Apache Spark为机器学习、Spark Streaming和GraphX提供了众多强大的库，其中也包括为DataFrame和SQL所设计的库。
+开发人员可以用这些标准库来提升应用的性能和开发效率。Spark可以运行于很多环境中，如独立的集群、Hadoop YARN、EC2和Apache Mesos。
+Apache Spark也能从Hive、HBase、Tachyon、Cassandra和HDFS等数据源读取数据。
